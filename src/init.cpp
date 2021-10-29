@@ -490,7 +490,7 @@ std::string HelpMessage(HelpMessageMode mode)
 std::string LicenseInfo()
 {
     const std::string URL_SOURCE_CODE = "<https://github.com/profitforall/PFA>";
-    const std::string URL_WEBSITE = "<https://profitforall.net//>";
+    const std::string URL_WEBSITE = "<https://profitforall.net>";
     // todo: remove urls from translations on next change
 
     // return FormatParagraph(strprintf(_("Copyright (C) %i-%i %s"), 2009, COPYRIGHT_YEAR, CopyrightHolders())) + "\n" +
